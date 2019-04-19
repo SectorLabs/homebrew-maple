@@ -7,7 +7,7 @@ class Postgis < Formula
 
   bottle do
     cellar :any
-
+    root_url "https://homebrew.bintray.com/bottles/"
     sha256 "b4249fd625f68664b121d896f9ef069ad3bf4469bc6fa0173b9d7aa0524bf160" => :mojave
     sha256 "c3e4f07c51d0b8409c2ff8eec5203de906d06360db15245f359622e6cde1c73b" => :high_sierra
     sha256 "bc929fc49418613e0eb1a9dde940ffbe756a42baae69b40a6fcb6847fffdde29" => :sierra
