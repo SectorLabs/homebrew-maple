@@ -6,6 +6,7 @@ class NodeAT8 < Formula
 
   bottle do
     cellar :any
+    root_url "https://homebrew.bintray.com/bottles/"
     sha256 "db34802888005a1fea191c94506db90a0f9e9cafa977b67646f1c7d1c8410cd5" => :mojave
     sha256 "2a2843b99c78bf29e693c71cec059683c524cfe6faca4cc1771610288d07c017" => :high_sierra
     sha256 "f2c7b5e6d499a0859c6bb4abe1320266e9fb726492050406a555c9762f5bbacd" => :sierra
