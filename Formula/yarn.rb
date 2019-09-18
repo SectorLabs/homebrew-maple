@@ -2,13 +2,12 @@ class Yarn < Formula
   desc "JavaScript package manager"
   homepage "https://yarnpkg.com/"
   # Should only be updated if the new version is listed as a stable release on the homepage
-  url "https://yarnpkg.com/downloads/1.15.2/yarn-v1.15.2.tar.gz"
-  sha256 "c4feca9ba5d6bf1e820e8828609d3de733edf0e4722d17ed7ce493ed39f61abd"
-  # keg_only "because I want it so"
+  url "https://yarnpkg.com/downloads/1.17.3/yarn-v1.17.3.tar.gz"
+  sha256 "e3835194409f1b3afa1c62ca82f561f1c29d26580c9e220c36866317e043c6f3"
 
   bottle :unneeded
 
-  depends_on "node@8"
+  depends_on "sectorlabs/maple/node@8"
 
   conflicts_with "hadoop", :because => "both install `yarn` binaries"
 
